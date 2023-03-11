@@ -1,13 +1,20 @@
 import Header from "../components/Header"
 import PlaceList from "../components/PlaceList"
+import Description from "../components/Description"
 import Footer from "../components/Footer"
+import places from "../json/places.json";
 
 function Home() {
     return (
-        <div className="container main-layout">
-            <Header className="layout-header" title="yuhsin" slogan="Hello World" />
-            <PlaceList className="layout-content" />
-            <Footer className="layout-footer" />
+        <div className=" mainLayout">
+            <Header
+                className="layoutHeader"
+                title="yuhsin"
+                slogan="Hello World"
+            />
+            <PlaceList places={places} className="layoutContent" />
+            <Description />
+            <Footer className="layoutFooter" />
         </div>
     );
 }
