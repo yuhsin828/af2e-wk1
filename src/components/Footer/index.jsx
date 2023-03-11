@@ -8,9 +8,9 @@ export default function Footer() {
                 <div className="container">
                     <Row justify="space-around" align="middle">
                         <Col lg={{ span: 18 }}>
-                            <h5 className={styles.footerDescription}>
+                            <h2 className={styles.footerDescription}>
                                 臺北市和平東路二段134號，國立臺北教育大學 數位科技設計學系
-                            </h5>
+                            </h2>
                         </Col>
                         <Col lg={{ span: 6 }}>
                             <ul className={styles.footerList}>
@@ -24,9 +24,9 @@ export default function Footer() {
             </div>
             <div className={styles.footerBelow}>
                 <div className="container">
-                    <h6>
+                    <h4>
                         &copy; Copyright All rights reserved.
-                    </h6>
+                    </h4>
                 </div>
             </div>
         </footer>

@@ -45,10 +45,10 @@
 }
 
 body {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.6;
   background-color: #111828;
-  color: white;
+  /* color: white; */
 }
 
 /* layout */
