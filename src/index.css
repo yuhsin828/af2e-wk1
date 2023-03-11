@@ -1,6 +1,30 @@
 /* Global Style */
 
 /* Divider Style */
+.main-layout {
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas:
+    'header'
+    'content'
+    'footer'
+  ;
+  grid-template-rows: auto 1fr auto;
+  gap: 1rem;
+}
+
+.layout-header {
+  grid-area: header;
+}
+
+.layout-content {
+  grid-area: content;
+}
+
+.layout-footer {
+  grid-area: footer;
+}
+
 .divider--light,
 .divider--dark {
   width: 250px;
